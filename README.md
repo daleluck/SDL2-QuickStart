@@ -14,17 +14,17 @@ https://www.libsdl.org/download-2.0.php
 Visual Studio Setup
 --------------------
 
-- Properties > Configuration Properties > VC++ Directories > Include Directories
+Properties > Configuration Properties > VC++ Directories > Include Directories
 - "[SDL folder]/include/"
 
-- Properties > Configuration Properties > VC++ Directories > Library Directories
-- "[SDL folder]/lib/x86" or "[SDL folder]/lib/x64", depending on application type
+Properties > Configuration Properties > VC++ Directories > Library Directories
+"[SDL folder]/lib/x86" or "[SDL folder]/lib/x64", depending on application type
 
-- Properties > Configuration Properties > Linker > Input > Additional Dependencies
+Properties > Configuration Properties > Linker > Input > Additional Dependencies
 - "SDL2.lib;SDL2main.lib;"
 
-- Properties > Configuration Properties > Linker > System > SubSystem
+Properties > Configuration Properties > Linker > System > SubSystem
 - 'Console' if you want it to show up, 'Windows' otherwise
 
-- Properties > Configuration Properties > C/C++ > Code Generation > Runtime Library
+Properties > Configuration Properties > C/C++ > Code Generation > Runtime Library
 - change it to 'Multi-threaded DLL (/MD)'
